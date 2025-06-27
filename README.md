@@ -34,4 +34,6 @@ ollama pull nomic-embed-text
 
 Документ с фиктивными ценами на телефоны хранится в файле `rag_data/test.json`  
 
+![](img/screen.jpg)
+
 Процесс создания n8n workflow будет рассмотрен на практическом занятии. 
