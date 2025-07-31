@@ -3,7 +3,7 @@
   "nodes": [
     {
       "parameters": {
-        "fileSelector": "C:/Users/Andrej/VSCodeProjects/prompt_engine/n8n/rag_data/test.json",
+        "fileSelector": "rag_data/test.json",
         "options": {}
       },
       "type": "n8n-nodes-base.readWriteFile",
