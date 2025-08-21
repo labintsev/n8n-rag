@@ -43,3 +43,24 @@ ollama pull nomic-embed-text
 ![](img/screen.jpg)
 
 Процесс создания n8n workflow будет рассмотрен на практическом занятии. 
+
+## Настройка Yandex OpenAI Chat
+
+### 1. Дважды кликните на узле OpenAI Chat
+
+![](img/0.jpg)
+
+### 2. Переключите выбор модели в режим Expression и введите ID модели, например `gpt://b1g8i6bj34avp7kulp7h/yandexgpt-lite/latest`
+
+![](img/1.jpg)
+
+Обратите внимание, нужно вместо `b1g8i6bj34avp7kulp7h` подставить свой FOLDER_ID!!!
+
+### 3. Нажмите на карандашик в разделе Credentials и в новом меню введите свой YA_API_KEY
+
+![](img/2.jpg)
+
+### 4. Также не забудьте указать Base URL: `https://llm.api.cloud.yandex.net/v1`  
+
+Не обращайте внимание на сообщение об ошибке, закройте настройки и протестируйте агента.  
+
