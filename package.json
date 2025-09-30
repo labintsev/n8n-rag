@@ -10,6 +10,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "n8n": "^1.94.1"
+    "n8n": "1.114.0"
   }
 }
